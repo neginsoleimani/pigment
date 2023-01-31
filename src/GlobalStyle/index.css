@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*========== GOOGLE FONT ==========*/
+@font-face {
+  font-family: iran;
+  src: url(../Asset/Font/iranyekanweblight\(fanum\).ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/*========== VARIABLE CSS ==========*/
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+
+
+ /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: iran;
+}
+
+
+/*========== BASE ==========*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  direction: rtl;
+  font-family:var(--body-font);
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.btn__primary{
+color: white;
+font-weight: bold;
+background-color: #3C79F5;
+padding: 0.5rem 1.5rem;
+width: max-content;
+border-radius: 0.5rem;
+font-size: 0.9rem;
 }
