@@ -1,0 +1,56 @@
+.circlecolor__container{
+    display: grid;
+    grid-template-columns:0.5fr 1fr 0.5fr;
+    align-items: center;
+    margin: 4rem 2.5rem;
+}
+
+.circlecolor__title-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.circlecolor__title{
+    text-align: justify;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0px 2px 1px rgb(0 0 0 / 10%), 0px 0px 1px rgb(0 0 0 / 25%)
+}
+
+.circlecolor__title h5{
+    margin: 0.5rem 0;
+    color: #757575;
+    font-size: 0.8rem;
+}
+
+#circlecolor-title-1{
+    position: relative;
+    left: -150px;
+}
+
+#circlecolor-title-2{
+    position: relative;
+    right: -80px;
+}
+
+#circlecolor-title-3{
+    position: relative;
+    right: -150px;
+}
+
+#circlecolor-title-4{
+    position: relative;
+    right: -80px;
+}
+
+.circlecolor__image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circlecolor__image img{
+width: 80%;
+}

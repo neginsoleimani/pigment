@@ -42,7 +42,7 @@ export default class Header extends Component {
         </h5>
         <a href="#" className="btn__primary">شروع کنید</a>
       </div>
-      <div className="header-image-box">
+      <div className="header__image-box">
         {this.state.ColorData.map
         (
           data => 
