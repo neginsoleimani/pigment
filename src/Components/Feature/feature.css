@@ -1,0 +1,71 @@
+.feature__container{
+    padding: 1rem 3rem;
+}
+
+.feature__container h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.grid-container-top{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    gap: 1rem;
+}
+
+.grid-container-top div{
+    background: white;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0px 2px 1px rgb(0 0 0 / 10%), 0px 0px 1px rgb(0 0 0 / 25%);
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.grid-container-mid{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 1rem;
+}
+
+.grid-container-mid div{
+    background: white;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0px 2px 1px rgb(0 0 0 / 10%), 0px 0px 1px rgb(0 0 0 / 25%);
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.grid-container-bot{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.grid-container-bot div{
+    background: white;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0px 2px 1px rgb(0 0 0 / 10%), 0px 0px 1px rgb(0 0 0 / 25%);
+    padding: 16px;
+    margin-bottom: 16px;
+}
