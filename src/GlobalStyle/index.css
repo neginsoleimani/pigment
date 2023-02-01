@@ -31,6 +31,7 @@ html {
 body {
   direction: rtl;
   font-family:var(--body-font);
+  background-color: #f4f7fb;
 }
 
 a{
@@ -41,7 +42,7 @@ a{
 .btn__primary{
 color: white;
 font-weight: bold;
-background-color: #3C79F5;
+background-color: #0c68f4;
 padding: 0.5rem 1.5rem;
 width: max-content;
 border-radius: 0.5rem;
